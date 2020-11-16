@@ -1217,62 +1217,23 @@ header {
   background-position: center bottom;
   height: 1000px;
   width: 100%; }
+  .filiales h3 {
+    color: #6c6c6c;
+    text-align: left;
+    margin: 44px 0; }
+  .filiales h6 {
+    color: #6c6c6c;
+    text-align: left;
+    margin: 44px 0; }
   .filiales .card-cont {
-    background: #fafafa;
+    background: #ffffff;
     border-radius: 1rem;
     padding: 3rem; }
-    .filiales .card-cont .circle-date {
-      background: #7db2e1;
-      border-radius: 100%;
-      width: 120px;
-      height: 120px;
-      margin: 0 auto;
-      position: absolute;
-      top: -100px;
-      left: 0;
-      right: 0;
+    .filiales .card-cont .logo-cont {
+      width: 100%;
       display: flex;
       justify-content: center;
-      align-items: center; }
-      .filiales .card-cont .circle-date p {
-        color: #ffffff;
-        margin-bottom: 0;
-        font-weight: 700;
-        font-size: 2rem; }
-    .filiales .card-cont h3 {
-      color: #6c6c6c;
-      text-align: center;
-      margin: 44px 0; }
-    .filiales .card-cont .accordion {
-      background: #ffffff; }
-      .filiales .card-cont .accordion .card {
-        border: initial;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
-        .filiales .card-cont .accordion .card .card-header {
-          background-color: transparent;
-          border-bottom: none; }
-          .filiales .card-cont .accordion .card .card-header button {
-            display: inline-flex;
-            align-items: center; }
-            .filiales .card-cont .accordion .card .card-header button:not(.collapsed) span.ico-plus {
-              background-image: url(../images/minus-solid.svg); }
-            .filiales .card-cont .accordion .card .card-header button span.ico-plus {
-              display: flex;
-              width: 26px;
-              height: 26px;
-              background-image: url(../images/plus-solid.svg);
-              background-size: cover;
-              background-repeat: no-repeat;
-              margin-right: 1rem; }
-            .filiales .card-cont .accordion .card .card-header button h5 {
-              color: #004C94;
-              font-weight: 700;
-              font-size: 1.2rem;
-              margin-bottom: 0; }
-        .filiales .card-cont .accordion .card .card-body p {
-          color: #7b7b7b;
-          font-weight: 500;
-          font-size: .9rem; }
+      margin-bottom: 2rem; }
 
 .organizacion {
   padding: 4rem 0 2rem;
@@ -1280,34 +1241,12 @@ header {
   background-image: url(../images/bg-light.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
-  height: 1000px;
+  height: 2800px;
   width: 100%; }
   .organizacion .card-cont {
     background: #fafafa;
     border-radius: 1rem;
     padding: 3rem; }
-    .organizacion .card-cont .circle-date {
-      background: #7db2e1;
-      border-radius: 100%;
-      width: 120px;
-      height: 120px;
-      margin: 0 auto;
-      position: absolute;
-      top: -100px;
-      left: 0;
-      right: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .organizacion .card-cont .circle-date p {
-        color: #ffffff;
-        margin-bottom: 0;
-        font-weight: 700;
-        font-size: 2rem; }
-    .organizacion .card-cont h3 {
-      color: #6c6c6c;
-      text-align: center;
-      margin: 44px 0; }
     .organizacion .card-cont .accordion {
       background: #ffffff; }
       .organizacion .card-cont .accordion .card {
@@ -1318,7 +1257,9 @@ header {
           border-bottom: none; }
           .organizacion .card-cont .accordion .card .card-header button {
             display: inline-flex;
-            align-items: center; }
+            align-items: center;
+            padding-left: 0;
+            padding-right: 0; }
             .organizacion .card-cont .accordion .card .card-header button:not(.collapsed) span.ico-plus {
               background-image: url(../images/minus-solid.svg); }
             .organizacion .card-cont .accordion .card .card-header button span.ico-plus {
@@ -1334,40 +1275,49 @@ header {
               font-weight: 700;
               font-size: 1.2rem;
               margin-bottom: 0; }
-        .organizacion .card-cont .accordion .card .card-body p {
-          color: #7b7b7b;
-          font-weight: 500;
-          font-size: .9rem; }
+        .organizacion .card-cont .accordion .card .card-body .row .cont-cargos {
+          border-bottom: 1px solid #dadada;
+          margin-bottom: 2rem; }
+          .organizacion .card-cont .accordion .card .card-body .row .cont-cargos .cont-foto {
+            width: 100%; }
+            .organizacion .card-cont .accordion .card .card-body .row .cont-cargos .cont-foto img {
+              width: 170px;
+              margin-bottom: 1rem; }
+          .organizacion .card-cont .accordion .card .card-body .row .cont-cargos h3 {
+            color: #6c6c6c;
+            text-align: left;
+            margin: 0 0 5px;
+            font-size: 1rem;
+            font-weight: 600; }
+          .organizacion .card-cont .accordion .card .card-body .row .cont-cargos h6 {
+            color: #6c6c6c;
+            text-align: left;
+            margin: 0 0 10px; }
+          .organizacion .card-cont .accordion .card .card-body .row .cont-cargos .sub {
+            width: 100px;
+            height: 4px;
+            background: #93af3b;
+            margin-bottom: 20px; }
+          .organizacion .card-cont .accordion .card .card-body .row .cont-cargos p {
+            color: #7b7b7b;
+            font-weight: 500;
+            font-size: .9rem; }
+        .organizacion .card-cont .accordion .card .card-body .row:last-child .cont-cargos {
+          border-bottom: none; }
 
 .compliance {
   padding: 4rem 0 2rem;
   background: #f2f2f2;
   background-repeat: no-repeat;
   background-position: center bottom;
-  height: 1000px;
+  height: 1100px;
   width: 100%; }
   .compliance .card-cont {
     background: #fafafa;
     border-radius: 1rem;
     padding: 3rem; }
-    .compliance .card-cont .circle-date {
-      background: #7db2e1;
-      border-radius: 100%;
-      width: 120px;
-      height: 120px;
-      margin: 0 auto;
-      position: absolute;
-      top: -100px;
-      left: 0;
-      right: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .compliance .card-cont .circle-date p {
-        color: #ffffff;
-        margin-bottom: 0;
-        font-weight: 700;
-        font-size: 2rem; }
+    .compliance .card-cont .cont-intro p {
+      color: #7b7b7b; }
     .compliance .card-cont h3 {
       color: #6c6c6c;
       text-align: center;
@@ -1402,6 +1352,16 @@ header {
           color: #7b7b7b;
           font-weight: 500;
           font-size: .9rem; }
+
+.datos {
+  padding: 4rem 0 2rem;
+  background: #f2f2f2;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 900px;
+  width: 100%; }
+  .datos .cont-info img {
+    width: 100%; }
 
 footer {
   background: #004C94;
