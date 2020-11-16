@@ -1353,6 +1353,16 @@ header {
           font-weight: 500;
           font-size: .9rem; }
 
+.datos {
+  padding: 4rem 0 2rem;
+  background: #f2f2f2;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 900px;
+  width: 100%; }
+  .datos .cont-info img {
+    width: 100%; }
+
 footer {
   background: #004C94;
   border-bottom: 1.5rem solid #134B7A;
