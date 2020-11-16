@@ -1118,7 +1118,7 @@ header {
 .historia {
   padding: 4rem 0 2rem;
   background: #f2f2f2;
-  background-image: url(../images/bg-blue-light.svg);
+  background-image: url(../images/bg-top-footer-blue-light.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
   height: 1000px;
@@ -1407,13 +1407,16 @@ footer {
   background: #004C94;
   border-bottom: 1.5rem solid #134B7A;
   background: #004c94;
-  background-image: url(../images/bg-footer.svg);
   background-repeat: no-repeat;
   background-position: center top;
   height: 430px;
   width: 100%;
   padding: 10rem 0 2.5rem;
   position: relative; }
+  footer.light {
+    background-image: url(../images/bg-footer-light.svg); }
+  footer.blue-light {
+    background-image: url(../images/bg-footer-blue-light.svg); }
   footer .wrap-int {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1426,7 +1429,7 @@ footer {
     width: 100%;
     margin: 0 auto;
     max-width: 1400px;
-    padding: 0 5.8rem; }
+    padding: 2rem 5.8rem 0; }
     @media only screen and (max-width: 991px) {
       footer .wrap-int {
         flex-wrap: wrap; } }
