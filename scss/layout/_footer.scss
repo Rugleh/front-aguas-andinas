@@ -1,96 +1,124 @@
-footer{
-  background: $azul;
+footer {
+  background: #004C94;
   border-bottom: 1.5rem solid #134B7A;
-  background:  #004c94;
+  background: #004c94;
   background-image: url(../images/bg-footer.svg);
   background-repeat: no-repeat;
   background-position: center top;
-  height: 1000px;
+  height: 430px;
   width: 100%;
   padding: 10rem 0 2.5rem;
   position: relative;
-  .franja1{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-  .wrap{
+
+  .wrap-int {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     position: relative;
     z-index: 2;
-    @include respond-to(991px){
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 5.8rem;
+
+    @include respond-to(991px) {
       flex-wrap: wrap;
     }
-  }
-  .logo{
-    width: 10.6rem;
-    img{
-      width: 100%;
-    }
-    @include respond-to(991px){
-      width: 100%;
-      margin-bottom: 2rem;
-      img{
-        width: 10rem;
+
+    .logo {
+      width: 10.6rem;
+
+      img {
+        width: 100%;
       }
+
+      @include respond-to(991px) {
+        width: 100%;
+        margin-bottom: 2rem;
+
+        img {
+          width: 10rem;
+        }
+
+      }
+
     }
-  }
-  .datos{
-    padding-left: 1rem;
-    @include respond-to(991px){
-      padding-left: 0;
-    }
-    @include respond-to(768px){
-      width: 100%;
-      margin-bottom: 2rem;
-    }
-    p{
-      display: flex;
-      align-items: center;
-      margin: 0 0 .7rem;
-      color: #fff;
-      font-size: .83rem;
-    }
-    img{
-      width: 1.87rem;
-      margin-right: .7rem;
-    }
-  }
-  .redes{
-    p{
-      font-size: 1rem;
-      color: #fff;
-      margin-bottom: 1rem;
-    }
-    .iconos{
-      display: flex;
-      a{
-        width: 2.3rem;
-        height: 2.3rem;
-        border: 1px solid #fff;
-        border-radius: 50%;
+
+    .datos-footer {
+      padding-left: 1rem;
+
+      @include respond-to(991px) {
+        padding-left: 0;
+      }
+
+      @include respond-to(768px) {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+
+      p {
         display: flex;
         align-items: center;
-        justify-content: center;
+        margin: 0 0 .7rem;
         color: #fff;
-        font-size: 1.2rem;
-        margin-right: .7rem;
-        transition: all .3s ease;
-        &:hover{
-          background: #fff;
-          color: $azul;
-        }
-        &:last-child{
-          margin-right: 0;
-        }
-        @include respond-to(550px){
-          width: 2rem;
-          height: 2rem;
-          font-size: 1rem;
-        }
+        font-size: .83rem;
       }
+
+      img {
+        width: 1.87rem;
+        margin-right: .7rem;
+      }
+
     }
+
+    .redes {
+
+      p {
+        font-size: 1rem;
+        color: #fff;
+        margin-bottom: 1rem;
+      }
+
+      .iconos {
+        display: flex;
+
+        a {
+          width: 2.3rem;
+          height: 2.3rem;
+          border: 1px solid #fff;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          font-size: 1.2rem;
+          margin-right: .7rem;
+          transition: all .3s ease;
+
+          &:hover {
+            background: #fff;
+            color: $azul;
+          }
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          @include respond-to(550px) {
+            width: 2rem;
+            height: 2rem;
+            font-size: 1rem;
+          }
+
+        }
+
+      }
+
+    }
+
   }
+
 }
