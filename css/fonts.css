@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Athelas';
+    src: url('fonts/Athelas-Regular.woff2') format('woff2'),
+        url('fonts/Athelas-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Athelas';
+    src: url('fonts/Athelas-BoldItalic.woff2') format('woff2'),
+        url('fonts/Athelas-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Athelas';
+    src: url('fonts/Athelas-Bold.woff2') format('woff2'),
+        url('fonts/Athelas-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Athelas';
+    src: url('fonts/Athelas-Italic.woff2') format('woff2'),
+        url('fonts/Athelas-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bogle';
+    src: url('fonts/Bogle-Black.woff2') format('woff2'),
+        url('fonts/Bogle-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bogle';
+    src: url('fonts/Bogle-BoldItalic.woff2') format('woff2'),
+        url('fonts/Bogle-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bogle';
+    src: url('fonts/Bogle-Italic.woff2') format('woff2'),
+        url('fonts/Bogle-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bogle';
+    src: url('fonts/Bogle-Bold.woff2') format('woff2'),
+        url('fonts/Bogle-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bogle';
+    src: url('fonts/Bogle-Regular.woff2') format('woff2'),
+        url('fonts/Bogle-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bogle';
+    src: url('fonts/Bogle-BlackItalic.woff2') format('woff2'),
+        url('fonts/Bogle-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Anydore';
+  src: url('fonts/Anydore.eot?#iefix') format('embedded-opentype'),  url('fonts/Anydore.woff') format('woff'), url('fonts/Anydore.ttf')  format('truetype'), url('fonts/Anydore.svg#Anydore') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

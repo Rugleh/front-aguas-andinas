@@ -1,0 +1,21 @@
+// Librerias, Settings y Variables
+@import "lib/variables";
+@import "lib/mixins";
+
+// Elementos Base
+@import "base/general";
+
+@import "components/carrusel";
+@import "components/banner-principal";
+@import "components/titulos";
+
+//Layout
+@import "layout/header";
+@import "layout/home";
+@import "layout/empresa";
+@import "layout/historia";
+@import "layout/socio";
+@import "layout/filiales";
+@import "layout/organizacion.scss";
+@import "layout/compliance.scss";
+@import "layout/footer";

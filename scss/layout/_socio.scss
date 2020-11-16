@@ -1,0 +1,29 @@
+.socio {
+    padding: 5rem 0 2rem;
+    background: #1f79ed;
+    background-image: url(../images/bg-light.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 1000px;
+    width: 100%;
+  
+    h6 {
+      color: #ffffff;
+    }
+  
+    .img-01 {
+      width: 90%;
+      position: absolute;
+      top: 0;
+      right: -70px;
+      z-index: 99;
+      border-radius: 1rem;
+    }
+  
+    .card-cont {
+      background: #ffffff;
+      border-radius: 1rem;
+      padding: 3rem;
+    }
+  
+  }

@@ -1,0 +1,38 @@
+.titulo{
+
+    &-white{
+        text-align: left;
+        font-size: 1.9rem;
+        color: #ffffff;
+        font-weight: 800;
+        margin: 0 0 8.5rem;
+    }
+
+    &-blue {
+        text-align: left;
+        font-size: 1.9rem;
+        color: #004C94;
+        font-weight: 800;
+        margin: 0 0 2.5rem;
+      }
+}
+
+// Rules - Mobile
+@media (max-width: $md) {
+    .titulo{
+        &-white{
+            text-align: left;
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+
+        &-blue {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+
+    }
+    
+}
+

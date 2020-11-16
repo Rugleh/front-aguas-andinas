@@ -1,0 +1,115 @@
+.historia {
+    padding: 4rem 0 2rem;
+    background: #f2f2f2;
+    background-image: url(../images/bg-blue-light.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 1000px;
+    width: 100%;
+
+    .card-cont {
+        background: #fafafa;
+        border-radius: 1rem;
+        padding: 3rem;
+
+        .circle-date {
+            background: #7db2e1;
+            border-radius: 100%;
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+            position: absolute;
+            top: -100px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                color: #ffffff;
+                margin-bottom: 0;
+                font-weight: 700;
+                font-size: 2rem;
+            }
+            
+        }
+
+        h3 {
+            color: #6c6c6c;
+            text-align: center;
+            margin: 44px 0;
+        }
+
+        .accordion {
+            background: #ffffff;
+
+            .card {
+                border: initial;
+                border-bottom: 1px solid rgba(0,0,0,.125);
+
+                .card-header {
+                    background-color: transparent;
+                    border-bottom: none;
+
+                    button {
+                        display: inline-flex;
+                        align-items: center;
+
+                        &:not(.collapsed) {
+
+                            span.ico-plus {
+                                background-image: url(../images/minus-solid.svg);
+                            }
+
+                        }
+
+                        span.ico-plus {
+                            display: flex;
+                            width: 26px;
+                            height: 26px;
+                            background-image: url(../images/plus-solid.svg);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            margin-right: 1rem;
+                        }
+
+                        h5 {
+                            color: #004C94;
+                            font-weight: 700;
+                            font-size: 1.2rem;
+                            margin-bottom: 0;
+                        }
+
+                    }
+
+                }
+
+                .card-body {
+
+                    p {
+                        color: #7b7b7b;
+                        font-weight: 500;
+                        font-size: .9rem;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+}
+
+// Rules - Mobile
+@media (max-width: $md) {
+    .historia{
+        height: initial;
+        .card-cont {
+            background: #fafafa;
+            border-radius: 1rem;
+            padding: 1rem;
+        }
+    }
+}

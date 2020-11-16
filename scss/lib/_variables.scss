@@ -1,0 +1,37 @@
+/**
+* Branding $COLORS*/
+$morado: #663083;
+$amarillo: #FFE72B;
+$azul: #004C94;
+$color-gris: #0A182B;
+
+// Project Global settings
+$prefix: "aguas";
+
+
+//Tipografia
+$font-1:'Montserrat', sans-serif;
+$basefontsize: 18px;
+
+$p-1: 20px;
+$p-2: 40px;
+$p-3: 60px;
+$p-4: 80px;
+
+$wrap1: 160px;
+$wrap2: 80px;
+$wrap3: 20px;
+
+// Media queries
+$grid-breakpoints: (
+	xs: 0,
+	sm: 375px,
+	md: 1080px,
+	lg: 1314px,
+	xl: 1920px
+);
+
+$sm: map-get($grid-breakpoints, sm);
+$md: map-get($grid-breakpoints, md);
+$lg: map-get($grid-breakpoints, lg);
+$xl: map-get($grid-breakpoints, xl);
