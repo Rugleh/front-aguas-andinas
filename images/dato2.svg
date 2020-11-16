@@ -1,0 +1,9 @@
+<svg id="Componente_43_4" data-name="Componente 43 – 4" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="Elipse_36" data-name="Elipse 36" fill="none" stroke="#efefef" stroke-width="2">
+    <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+    <circle cx="22.5" cy="22.5" r="21.5" fill="none"/>
+  </g>
+  <g id="Grupo_178" data-name="Grupo 178" transform="translate(11.328 9.778)">
+    <path id="Trazado_135" data-name="Trazado 135" d="M58.023,28.175q.5.5,1.257,0c1.676-1.425,2.933-2.095,3.436-1.592L66.4,30.269c.587.587.084,1.844-.67,2.682C57.1,42,38.414,12.085,50.4,8.23c1.006-.335,2.346-.168,2.682.67l1.592,4.86c.251.67-.838,1.508-2.933,2.43a.831.831,0,0,0-.5,1.089A24.763,24.763,0,0,0,58.023,28.175Z" transform="translate(-46.501 -8.069)" fill="#efefef" fill-rule="evenodd"/>
+  </g>
+</svg>

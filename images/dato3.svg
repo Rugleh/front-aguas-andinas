@@ -1,0 +1,17 @@
+<svg id="Componente_43_3" data-name="Componente 43 – 3" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="Trazado_136" data-name="Trazado 136" transform="translate(9 8)" fill="none">
+    <path d="M0,16.5Z" stroke="none"/>
+    <path d="M 0 13.8693904876709 L 0 19.1306095123291 L 0 13.8693904876709 Z" stroke="none" fill="#efefef"/>
+  </g>
+  <g id="Elipse_37" data-name="Elipse 37" fill="none" stroke="#efefef" stroke-width="2">
+    <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+    <circle cx="22.5" cy="22.5" r="21.5" fill="none"/>
+  </g>
+  <g id="regla" transform="matrix(0.695, -0.719, 0.719, 0.695, 8.816, 15.658)">
+    <g id="Grupo_53" data-name="Grupo 53" transform="translate(0 0)">
+      <g id="Grupo_52" data-name="Grupo 52">
+        <path id="Trazado_47" data-name="Trazado 47" d="M8.22,1.331A1.338,1.338,0,0,0,6.934,0h-5.6A1.338,1.338,0,0,0,0,1.338v16.1a.641.641,0,0,1,0,.187L3.49,29.357a.646.646,0,0,0,1.241,0L8.22,17.622a.639.639,0,0,1,0-.187ZM1.3,6.158H3.464v10.63L1.3,16.8ZM4.136,26.921l-.943-3.128a2.856,2.856,0,0,1,.368.136,3.031,3.031,0,0,0,1.247.31h.1Zm1.208-4.065a1.4,1.4,0,0,1-1.254-.1A2.371,2.371,0,0,0,2.8,22.5L1.506,18.094H6.746Zm1.635-6.068h-2.2V6.158h2.2Zm0-11.922H1.325V1.312l5.654.039Z" fill="#efefef"/>
+      </g>
+    </g>
+  </g>
+</svg>

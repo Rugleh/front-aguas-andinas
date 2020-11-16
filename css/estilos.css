@@ -1118,7 +1118,7 @@ header {
 .historia {
   padding: 4rem 0 2rem;
   background: #f2f2f2;
-  background-image: url(../images/bg-blue-light.svg);
+  background-image: url(../images/bg-top-footer-blue-light.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
   height: 1000px;
@@ -1407,81 +1407,87 @@ footer {
   background: #004C94;
   border-bottom: 1.5rem solid #134B7A;
   background: #004c94;
-  background-image: url(../images/bg-footer.svg);
   background-repeat: no-repeat;
   background-position: center top;
-  height: 1000px;
+  height: 430px;
   width: 100%;
   padding: 10rem 0 2.5rem;
   position: relative; }
-  footer .franja1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; }
-  footer .wrap {
+  footer.light {
+    background-image: url(../images/bg-footer-light.svg); }
+  footer.blue-light {
+    background-image: url(../images/bg-footer-blue-light.svg); }
+  footer .wrap-int {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     position: relative;
-    z-index: 2; }
+    z-index: 2;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 2rem 5.8rem 0; }
     @media only screen and (max-width: 991px) {
-      footer .wrap {
+      footer .wrap-int {
         flex-wrap: wrap; } }
-  footer .logo {
-    width: 10.6rem; }
-    footer .logo img {
-      width: 100%; }
-    @media only screen and (max-width: 991px) {
-      footer .logo {
-        width: 100%;
-        margin-bottom: 2rem; }
-        footer .logo img {
-          width: 10rem; } }
-  footer .datos {
-    padding-left: 1rem; }
-    @media only screen and (max-width: 991px) {
-      footer .datos {
-        padding-left: 0; } }
-    @media only screen and (max-width: 768px) {
-      footer .datos {
-        width: 100%;
-        margin-bottom: 2rem; } }
-    footer .datos p {
-      display: flex;
-      align-items: center;
-      margin: 0 0 .7rem;
+    footer .wrap-int .logo {
+      width: 10.6rem; }
+      footer .wrap-int .logo img {
+        width: 100%; }
+      @media only screen and (max-width: 991px) {
+        footer .wrap-int .logo {
+          width: 100%;
+          margin-bottom: 2rem; }
+          footer .wrap-int .logo img {
+            width: 10rem; } }
+    footer .wrap-int .datos-footer {
+      padding-left: 1rem; }
+      @media only screen and (max-width: 991px) {
+        footer .wrap-int .datos-footer {
+          padding-left: 0; } }
+      @media only screen and (max-width: 768px) {
+        footer .wrap-int .datos-footer {
+          width: 100%;
+          margin-bottom: 2rem; } }
+      footer .wrap-int .datos-footer p {
+        display: flex;
+        align-items: center;
+        margin: 0 0 .7rem;
+        color: #fff;
+        font-size: .83rem; }
+      footer .wrap-int .datos-footer img {
+        width: 1.87rem;
+        margin-right: .7rem; }
+    footer .wrap-int .redes p {
+      font-size: 1rem;
       color: #fff;
-      font-size: .83rem; }
-    footer .datos img {
-      width: 1.87rem;
-      margin-right: .7rem; }
-  footer .redes p {
-    font-size: 1rem;
-    color: #fff;
-    margin-bottom: 1rem; }
-  footer .redes .iconos {
-    display: flex; }
-    footer .redes .iconos a {
-      width: 2.3rem;
-      height: 2.3rem;
-      border: 1px solid #fff;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      font-size: 1.2rem;
-      margin-right: .7rem;
-      transition: all .3s ease; }
-      footer .redes .iconos a:hover {
-        background: #fff;
-        color: #004C94; }
-      footer .redes .iconos a:last-child {
-        margin-right: 0; }
-      @media only screen and (max-width: 550px) {
-        footer .redes .iconos a {
-          width: 2rem;
-          height: 2rem;
-          font-size: 1rem; } }
+      margin-bottom: 1rem; }
+    footer .wrap-int .redes .iconos {
+      display: flex; }
+      footer .wrap-int .redes .iconos a {
+        width: 2.3rem;
+        height: 2.3rem;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 1.2rem;
+        margin-right: .7rem;
+        transition: all .3s ease; }
+        footer .wrap-int .redes .iconos a:hover {
+          background: #fff;
+          color: #004C94; }
+        footer .wrap-int .redes .iconos a:last-child {
+          margin-right: 0; }
+        @media only screen and (max-width: 550px) {
+          footer .wrap-int .redes .iconos a {
+            width: 2rem;
+            height: 2rem;
+            font-size: 1rem; } }
 
 /*# sourceMappingURL=estilos.css.map */
