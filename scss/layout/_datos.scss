@@ -3,14 +3,19 @@
     background: #f2f2f2;
     background-repeat: no-repeat;
     background-position: center bottom;
-    height: 900px;
+    height: 400px;
     width: 100%;
+
+    @media (min-width: 768px) {
+        height: 900px;
+    }    
 
     .cont-info {
 
         img {
             width: 100%;
         }
+        
     }
 
 }

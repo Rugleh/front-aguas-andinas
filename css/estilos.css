@@ -383,32 +383,34 @@ button {
   .titulo-white {
     text-align: left;
     font-size: 1.5rem;
-    font-weight: 400; }
+    font-weight: 400;
+    margin: 0 0 2rem; }
   .titulo-blue {
     text-align: center;
     font-size: 1.5rem;
-    font-weight: 400; } }
+    font-weight: 400;
+    margin: 0 0 2rem; } }
 header {
   background: #004C94;
   padding: 0; }
   header .wrap-2 {
-    padding: 1rem 2rem;
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #ffffff; }
-    @media only screen and (max-width: 768px) {
+    @media (min-width: 768px) {
       header .wrap-2 {
-        padding: 0 15px; } }
+        padding: 1rem 2rem; } }
   header .wrap-3 {
-    padding: 1rem 20rem 1rem 17rem;
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #ffffff; }
-    @media only screen and (max-width: 768px) {
+    @media (min-width: 768px) {
       header .wrap-3 {
-        padding: 0 15px; } }
+        padding: 1rem 20rem 1rem 17rem; } }
   header .head-izq {
     display: flex;
     align-items: center; }
@@ -443,13 +445,11 @@ header {
   header nav.nav-2 {
     width: 100%;
     display: flex; }
-    @media only screen and (max-width: 991px) {
-      header nav.nav-2 {
-        display: none; } }
     header nav.nav-2 ul {
       margin: 0;
       width: 100%;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
       padding-left: 0;
@@ -1091,25 +1091,33 @@ header {
     background: #cd860f; }
 
 .empresa {
-  padding: 5rem 0 2rem;
+  padding: 2rem 0;
   background: #004c94;
   background-image: url(../images/bg-light.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
-  height: 1000px;
+  height: 2000px;
   width: 100%; }
+  @media (min-width: 768px) {
+    .empresa {
+      padding: 5rem 0 2rem;
+      height: 1000px; } }
   .empresa h6 {
     color: #ffffff; }
   .empresa .col-second {
     position: relative;
     top: 6rem; }
   .empresa .img-01 {
-    width: 90%;
-    position: absolute;
-    top: 0;
-    right: -70px;
-    z-index: 99;
+    width: 100%;
     border-radius: 1rem; }
+    @media (min-width: 991px) {
+      .empresa .img-01 {
+        position: absolute;
+        top: 0;
+        right: -70px;
+        z-index: 99;
+        width: 90%;
+        border-radius: 1rem; } }
   .empresa .card-cont {
     background: #ffffff;
     border-radius: 1rem;
@@ -1193,17 +1201,24 @@ header {
   background-image: url(../images/bg-light.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
-  height: 1000px;
+  height: 2000px;
   width: 100%; }
+  @media (min-width: 768px) {
+    .socio {
+      height: 1000px; } }
   .socio h6 {
     color: #ffffff; }
   .socio .img-01 {
-    width: 90%;
-    position: absolute;
-    top: 0;
-    right: -70px;
-    z-index: 99;
+    width: 100%;
     border-radius: 1rem; }
+    @media (min-width: 991px) {
+      .socio .img-01 {
+        width: 90%;
+        position: absolute;
+        top: 0;
+        right: -70px;
+        z-index: 99;
+        border-radius: 1rem; } }
   .socio .card-cont {
     background: #ffffff;
     border-radius: 1rem;
@@ -1241,8 +1256,11 @@ header {
   background-image: url(../images/bg-light.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
-  height: 2800px;
+  height: 7000px;
   width: 100%; }
+  @media (min-width: 768px) {
+    .organizacion {
+      height: 2800px; } }
   .organizacion .card-cont {
     background: #fafafa;
     border-radius: 1rem;
@@ -1310,8 +1328,11 @@ header {
   background: #f2f2f2;
   background-repeat: no-repeat;
   background-position: center bottom;
-  height: 1100px;
+  height: 2600px;
   width: 100%; }
+  @media (min-width: 768px) {
+    .compliance {
+      height: 1100px; } }
   .compliance .card-cont {
     background: #fafafa;
     border-radius: 1rem;
@@ -1358,8 +1379,11 @@ header {
   background: #f2f2f2;
   background-repeat: no-repeat;
   background-position: center bottom;
-  height: 900px;
+  height: 400px;
   width: 100%; }
+  @media (min-width: 768px) {
+    .datos {
+      height: 900px; } }
   .datos .cont-info img {
     width: 100%; }
 
@@ -1369,10 +1393,14 @@ footer {
   background: #004c94;
   background-repeat: no-repeat;
   background-position: center top;
-  height: 430px;
+  height: 530px;
   width: 100%;
-  padding: 10rem 0 2.5rem;
+  padding: 5rem 0 2.5rem;
   position: relative; }
+  @media (min-width: 768px) {
+    footer {
+      height: 430px;
+      padding: 12rem 0 2.5rem; } }
   footer.light {
     background-image: url(../images/bg-footer-light.svg); }
   footer.blue-light {
@@ -1389,7 +1417,10 @@ footer {
     width: 100%;
     margin: 0 auto;
     max-width: 1400px;
-    padding: 2rem 5.8rem 0; }
+    padding: 2rem; }
+    @media (min-width: 768px) {
+      footer .wrap-int {
+        padding: 2rem 5.8rem 0; } }
     @media only screen and (max-width: 991px) {
       footer .wrap-int {
         flex-wrap: wrap; } }

@@ -4,8 +4,12 @@
     background-image: url(../images/bg-light.svg);
     background-repeat: no-repeat;
     background-position: center bottom;
-    height: 2800px;
+    height: 7000px;
     width: 100%;
+
+    @media (min-width: 768px) {
+        height: 2800px;
+    }
 
     .card-cont {
         background: #fafafa;
@@ -17,7 +21,7 @@
 
             .card {
                 border: initial;
-                border-bottom: 1px solid rgba(0,0,0,.125);
+                border-bottom: 1px solid rgba(0, 0, 0, .125);
 
                 .card-header {
                     background-color: transparent;
@@ -27,7 +31,7 @@
                         display: inline-flex;
                         align-items: center;
                         padding-left: 0;
-                        padding-right: 0;                        
+                        padding-right: 0;
 
                         &:not(.collapsed) {
 
@@ -83,7 +87,7 @@
                                 font-size: 1rem;
                                 font-weight: 600;
                             }
-                    
+
                             h6 {
                                 color: #6c6c6c;
                                 text-align: left;
@@ -95,7 +99,7 @@
                                 height: 4px;
                                 background: #93af3b;
                                 margin-bottom: 20px;
-                            }                    
+                            }
 
                             p {
                                 color: #7b7b7b;
@@ -106,7 +110,7 @@
                         }
 
                         &:last-child {
-                            
+
                             .cont-cargos {
                                 border-bottom: none;
                             }
