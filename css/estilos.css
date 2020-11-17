@@ -313,9 +313,10 @@ button {
   background: #004c94;
   background-image: url(../images/bg-light.svg);
   background-repeat: no-repeat;
-  background-position: center bottom;
-  height: 1260px;
-  width: 100%; }
+  background-position: center 101%;
+  height: initial;
+  width: 100%;
+  padding-bottom: 100px; }
   .aguas-banner-principal h6 {
     color: #ffffff; }
   .aguas-banner-principal .col-first .card-cont {
@@ -326,17 +327,65 @@ button {
   .aguas-banner-principal__image {
     background-size: cover;
     background-position: center;
-    width: 725px;
-    height: 498px;
+    width: 100%;
+    height: 440px;
     position: absolute;
     top: 0;
-    left: 144px;
+    left: 148px;
     z-index: 1;
     border-radius: 22px; }
   .aguas-banner-principal .card-cont {
     background: #ffffff;
     border-radius: 1rem;
     padding: 3rem; }
+  .aguas-banner-principal--tipo2 {
+    background-color: #F2F2F2;
+    padding: 0 0 2rem;
+    min-height: 800px;
+    height: initial; }
+    .aguas-banner-principal--tipo2__image {
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      margin-right: 45px;
+      height: 440px;
+      border-radius: 22px; }
+    .aguas-banner-principal--tipo2 .titulo-blue {
+      text-align: left;
+      font-size: 2.5rem;
+      color: #004C94;
+      font-weight: 600;
+      margin: 2rem 1rem; }
+    .aguas-banner-principal--tipo2 .col-front {
+      position: absolute;
+      right: 0;
+      top: 185px; }
+    .aguas-banner-principal--tipo2 .card-cont {
+      border: 3px solid #004c94; }
+  .aguas-banner-principal--tipo3 {
+    background-color: #1F79ED;
+    padding: 0 0 2rem;
+    min-height: 800px;
+    height: initial; }
+    .aguas-banner-principal--tipo3__image {
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 440px;
+      border-radius: 22px; }
+    .aguas-banner-principal--tipo3 .titulo-white {
+      text-align: left;
+      font-size: 2.5rem;
+      color: white;
+      font-weight: 600;
+      margin: 2rem 1rem; }
+    .aguas-banner-principal--tipo3 .col-first .card-cont {
+      padding-right: 3rem; }
+    .aguas-banner-principal--tipo3 .col-end {
+      position: absolute;
+      top: 232px;
+      right: -46px;
+      padding-right: 2px; }
 
 @media (max-width: 1080px) {
   .aguas-banner-principal {

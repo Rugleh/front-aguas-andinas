@@ -5,11 +5,12 @@
 // Elementos Base
 @import "base/general";
 
+// Components
 @import "components/carrusel";
 @import "components/banner-principal";
 @import "components/titulos";
 
-//Layout
+// Layout
 @import "layout/header";
 @import "layout/home";
 @import "layout/empresa";
@@ -20,3 +21,4 @@
 @import "layout/compliance";
 @import "layout/datos";
 @import "layout/footer";
+
