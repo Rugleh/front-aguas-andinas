@@ -3,8 +3,12 @@
     background: #f2f2f2;
     background-repeat: no-repeat;
     background-position: center bottom;
-    height: 1100px;
+    height: 2600px;
     width: 100%;
+
+    @media (min-width: 768px) {
+        height: 1100px;
+    }    
 
     .card-cont {
         background: #fafafa;
