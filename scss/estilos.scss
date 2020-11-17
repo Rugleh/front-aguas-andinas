@@ -5,18 +5,20 @@
 // Elementos Base
 @import "base/general";
 
+// Components
 @import "components/carrusel";
 @import "components/banner-principal";
 @import "components/titulos";
 
-//Layout
+// Layout
 @import "layout/header";
 @import "layout/home";
 @import "layout/empresa";
 @import "layout/historia";
 @import "layout/socio";
 @import "layout/filiales";
-@import "layout/organizacion.scss";
-@import "layout/compliance.scss";
-
+@import "layout/organizacion";
+@import "layout/compliance";
+@import "layout/datos";
 @import "layout/footer";
+
