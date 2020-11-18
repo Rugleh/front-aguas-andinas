@@ -1,0 +1,64 @@
+<section class="noticias">
+    <img src="../../../aguas-home-theme/images/noticias/franja1.png" class="franja1" alt="">
+    <div class="wrap">
+        <h2 class="titulo blanco wow fadeInUp2">Noticias</h2>
+        <div class="carrusel blanco">
+            <div class="c-4">
+            #if (!$entries.isEmpty())
+                
+                #foreach ($entry in $entries)
+
+                    #set( $renderer = $entry.getAssetRenderer() )
+                    #set( $className = $renderer.getClassName() )
+                    #if ( $className == "com.liferay.portlet.journal.model.JournalArticle" )
+                    #set( $journalArticle = $renderer.getArticle() )
+                    #set( $document = $saxReaderUtil.read($journalArticle.getContent()) )
+                    #set( $rootElement = $document.getRootElement() )
+
+                    #set( $xPathSelector = $saxReaderUtil.createXPath("dynamic-element[@name='contenido']") )
+                    #set( $descripcionNoticia = $xPathSelector.selectSingleNode($rootElement).getStringValue() )
+
+                    #set( $date = $dateTool.format("dd/MM/yyyy", $dateTool.toDate( "EEE, dd MMM yyyy hh:mm:ss Z" , $entry.getPublishDate())))
+                    
+                    #set( $xPathSelector = $saxReaderUtil.createXPath("dynamic-element[@name='titulo']") )
+                    #set( $tituloNoticia = $xPathSelector.selectSingleNode($rootElement).getStringValue() )
+
+                    #set( $xPathSelector = $saxReaderUtil.createXPath("dynamic-element[@name='imagen']") )
+                    #set( $imageNoticia = $xPathSelector.selectSingleNode($rootElement).getStringValue() )
+
+                    #set( $xPathSelector = $saxReaderUtil.createXPath("dynamic-element[@name='bajada']") )
+                    #set( $bajadaNoticia = $xPathSelector.selectSingleNode($rootElement).getStringValue() )
+
+                    #set( $xPathSelector = $saxReaderUtil.createXPath("dynamic-element[@name='link1']") )
+                    #set( $link1 = $xPathSelector.selectSingleNode($rootElement).getStringValue() )
+
+                    #set( $xPathSelector = $saxReaderUtil.createXPath("dynamic-element[@name='link2']") )
+                    #set( $link2 = $xPathSelector.selectSingleNode($rootElement).getStringValue() )
+                
+                    #set( $viewURL = $assetPublisherHelper.getAssetViewURL($renderRequest, $renderResponse, $entry))
+                    #set( $viewURL = $renderer.getURLViewInContext($renderRequest, $renderResponse, $viewURL))
+                    <div class="item">
+                        <div class="box-noticia">                        
+                            <figure>
+                                <a href="$viewURL"><img src="$imageNoticia" alt=""></a>
+                            </figure>
+                            <h4><a href="$viewURL">$tituloNoticia</a></h4>
+                            <p>$bajadaNoticia</p>
+                            <div class="meta">
+                                <a href="$link1" class="share"><i class="icon-heart"></i></a>
+                                <a href="$link2" class="share"><i class="icon-share-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    #end
+                #end
+            #end	
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="#" class="btn-ver-mas wow fadeInUp2">VER MÁS</a>
+        </div>
+    </div>
+    <img src="../../../aguas-home-theme/images/noticias/franja2.png" class="franja2" alt="">
+            
+</section>
