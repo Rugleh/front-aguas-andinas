@@ -1,11 +1,16 @@
 .empresa {
-  padding: 5rem 0 2rem;
+  padding: 2rem 0;
   background: #004c94;
   background-image: url(../images/bg-light.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
-  height: 1000px;
+  height: 2000px;
   width: 100%;
+
+  @media (min-width: 768px) {      
+    padding: 5rem 0 2rem;
+    height: 1000px;
+  }  
 
   h6 {
     color: #ffffff;
@@ -17,12 +22,17 @@
   }
 
   .img-01 {
-    width: 90%;
-    position: absolute;
-    top: 0;
-    right: -70px;
-    z-index: 99;
+    width: 100%;
     border-radius: 1rem;
+
+    @media (min-width: 991px) {
+      position: absolute;
+      top: 0;
+      right: -70px;
+      z-index: 99;
+      width: 90%;
+      border-radius: 1rem;
+    }
   }
 
   .card-cont {

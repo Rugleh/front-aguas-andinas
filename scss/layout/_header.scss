@@ -1,24 +1,24 @@
 header{
   background: #004C94;
   padding: 0;
-  .wrap-2{
-    padding: 1rem 2rem;
+  .wrap-2{   
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #ffffff;
-    @include respond-to(768px){
-      padding: 0 15px;
+    @media (min-width: 768px) {      
+      padding: 1rem 2rem;
     }
   }
   .wrap-3{
-    padding: 1rem 20rem 1rem 17rem;
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #ffffff;
-    @include respond-to(768px){
-      padding: 0 15px;
+    @media (min-width: 768px) { 
+      padding: 1rem 20rem 1rem 17rem;
     }
   }
   .head-izq{
@@ -65,13 +65,11 @@ header{
   nav.nav-2{
     width: 100%;
     display: flex;
-    @include respond-to(991px){
-      display: none;
-    }
     ul{
       margin: 0;
       width: 100%;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
       padding-left: 0;
